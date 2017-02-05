@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.android.todolists.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:textSize="16dp"
+        android:text="Press the appropriate To Do List below:" />
+
+    <TextView
+        android:id="@+id/shoppinglist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ListCategory"
+        android:background="#1500"
+        android:text="Shopping List" />
+
+    <TextView
+        android:id="@+id/houseworklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ListCategory"
+        android:background="#2200"
+        android:text="Housework List" />
+
+    <TextView
+        android:id="@+id/gardeninglist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ListCategory"
+        android:background="#2900"
+        android:text="Gardening List" />
+
+    <TextView
+        android:id="@+id/cookinglist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ListCategory"
+        android:background="#3600"
+        android:text="Cooking List" />
+
+    <TextView
+        android:id="@+id/workoutlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ListCategory"
+        android:background="#4300"
+        android:text="Workout List" />
+
+</LinearLayout>
